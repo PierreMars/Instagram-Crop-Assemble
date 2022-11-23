@@ -20,7 +20,11 @@ Code project here : https://github.com/AphroMad/Crop-Instagram (But it's private
 
 
 ### How does it do that ? 
-Magic
+#### First thing first, trim the image 
+
+#### Then, put it on a background
+
+#### Finally, combine images
 
 
 
