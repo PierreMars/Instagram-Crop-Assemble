@@ -1,6 +1,6 @@
 # Instagram-Crop-Assemble
 
-Tired of clipping your instagram screenshots by hand? This script should help you !
+Tired of clipping your instagram screenshots by hand ? This script should help you !
 
 Code project here : https://github.com/AphroMad/Crop-Instagram (But it's private)
 
@@ -15,7 +15,7 @@ Code project here : https://github.com/AphroMad/Crop-Instagram (But it's private
 
 | Step 1 | Step 2 | Step 3 | Step 4 | 
 |:---:|:---:|:---:|:---:|
-| Screenshot | Trimmed pic | Pic with a background (for phone) | Group of images (for desktop / tablet) 
+| Screenshot | Trimmed image | Image with a background (for phone) | Group of images (for desktop / tablet) 
 ![step 1](https://github.com/PierreMars/Instagram-Crop-Assemble/blob/main/example/step1.png) |  ![step 2](https://github.com/PierreMars/Instagram-Crop-Assemble/blob/main/example/step2.jpg) | ![step 3](https://github.com/PierreMars/Instagram-Crop-Assemble/blob/main/example/step3.jpg) | ![step 4](https://github.com/PierreMars/Instagram-Crop-Assemble/blob/main/example/step4.png)
 
 
