@@ -2,6 +2,8 @@ Tired of clipping your instagram screenshots by hand ? This script should help y
 
 Code project here : https://github.com/AphroMad/Crop-Instagram (But it's private)
 
+Code demonstration of part 1 (cropping) here : https://youtu.be/TneQ-RHpimM
+
 # How does it work ?  
 
 ## What does it do ? 
@@ -21,11 +23,15 @@ Code project here : https://github.com/AphroMad/Crop-Instagram (But it's private
 ### First thing first, crop the image (Step 1 -> Step 2)
 Crop the image is the most complicated part. This part can be divided into several steps. 
 
-- First of all, we have to find the coordinates of the recurring icons in each post (like, comments, message, settings, etc...). 
-- Then, we just need to do a pixel color check to determine the upper and lower limit to the image. 
-- Once the limits are found, we can crop the picture! 
+- First of all, we check if some template images are found on the image
+- If not, we ask the user to circle the settings and comment button of a post
+- We save those two pictures into the template images folder
+- Then, we use them to crop the image
+- We loop through all the images and ask the user to circle the new icons if they are new ones
 
 ![Important icons](https://github.com/PierreMars/Instagram-Crop-Assemble/blob/main/example/instaIcons.png)
+
+You can stop there if you just want the cropped images.
 
 ### Then, put it on a background (Step 2 -> Step 3)
 
@@ -35,11 +41,17 @@ Now that the images are cropped, we would like to put them all in the same forma
 - Then, to avoid having an image on a white background, we calculate the average color of the pixels and put this color in the background. 
 - Idea for improvement: Calculate a color gradient up / down like on instagram story. 
 
+You can stop there if you just want the cropped images all in the same size. 
+
 ### Finally, combine images (Step 3 -> Step 4)
 Just as we prepared the images to use as phone wallpaper, I also coded something to have them as computer wallpaper. 
 
 - At the beginning of this step, the user is asked for dimensions, then, by going through the list of images and their dimensions after changing size, we put the images as we go along in a large image. 
 
 - For each final image, the first line is completed first, then the second. Then we move on to the next image, while removing the possibility of adding the images we have just used in the next wallpapers. 
+
+And you have something like that at the end : 
+
+![step 4](https://github.com/PierreMars/Instagram-Crop-Assemble/blob/main/example/step4.png)
 
 
