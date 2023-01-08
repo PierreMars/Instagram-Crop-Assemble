@@ -1,8 +1,10 @@
+# Instagram-Crop-Assemble Projet by Pierre Marsaa
+
 Tired of clipping your instagram screenshots by hand ? This script should help you !
 
-Code project here : https://github.com/AphroMad/Crop-Instagram (But it's private)
+Code project here : https://github.com/AphroMad/Crop-Instagram (private for now, you can ask me to have access)
 
-Code demonstration of part 1 (cropping) here : https://youtu.be/TneQ-RHpimM
+Code demonstration of step 1 (cropping) here : https://youtu.be/TneQ-RHpimM
 
 # How does it work ?  
 
