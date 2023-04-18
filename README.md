@@ -4,7 +4,7 @@ Tired of clipping your instagram screenshots by hand ? This script should help y
 
 Code project here : https://github.com/AphroMad/Crop-Instagram (private for now, you can ask me to have access)
 
-Code demonstration of step 1 (cropping) here : https://youtu.be/TneQ-RHpimM
+Code demonstration of step 1 (cropping) here : https://youtu.be/Dyx3d5wCPFM
 
 # How does it work ?  
 
